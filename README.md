@@ -35,9 +35,9 @@ cd <repository-directory>
 ```
 
 2.Установите зависимости:
-```bash
-pip install torch transformers pandas scikit-learn matplotlib
-```
+
+`pip install torch transformers pandas scikit-learn matplotlib`
+
 
 ## Подготовка данных 
 
@@ -58,10 +58,7 @@ pip install torch transformers pandas scikit-learn matplotlib
 ### Режим 1: Обучение новой модели 
 1. Поместите ваш датасет в корневую директорию с именем _sentiment_.csv
 2. Запустите обучение:
-  ```bash
-  python train.py
- 
-  ```
+  `python train.py`
 
 Скрипт автоматически: 
 - Загрузит предобученную модель RuBERT
@@ -75,9 +72,7 @@ pip install torch transformers pandas scikit-learn matplotlib
 1. Убедитесь, что папка ./fine_tuned_model существует (результат предыдущего обучения)
 2. Создайте файл test.txt с текстами для анализа (по одному тексту на строку)
 3. Запустите тестирование:
-  ```bash
-    python use.py
-  ```
+    `python use.py`
 
 ## Структура проекта
 
