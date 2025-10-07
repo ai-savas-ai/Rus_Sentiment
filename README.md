@@ -76,15 +76,15 @@ pip install torch transformers pandas scikit-learn matplotlib
 2. Создайте файл test.txt с текстами для анализа (по одному тексту на строку)
 3. Запустите тестирование:
   ```bash
-    python test_model.py
+    python use.py
   ```
 
 ## Структура проекта
 
 ```
 project/
-├── train_and_interactive.py     # Основной скрипт для обучения и интерактивного режима
-├── test_model.py               # Скрипт для пакетного тестирования
+├── train.py                    # Основной скрипт для обучения и интерактивного режима
+├── use.py                      # Скрипт для пакетного тестирования
 ├── _sentiment_.csv             # Датасет для обучения (пример)
 ├── test.txt                    # Файл с текстами для тестирования
 ├── fine_tuned_model/           # Сохраненная обученная модель
