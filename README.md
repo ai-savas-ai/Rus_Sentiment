@@ -45,6 +45,9 @@ cd <repository-directory>
 
     text - текст для анализа
     label - метка тональности (0 = Нейтральная, 1 = Позитивная, 2 = Негативная)
+
+В данном приложении использовался датасет Kaggle: [Rus Sentiment Dataset]((https://www.kaggle.com/datasets/mar1mba/russian-sentiment-dataset)
+
      
 Пример структуры файла _sentiment_.csv: 
 ```csv
